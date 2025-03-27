@@ -1,0 +1,153 @@
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background: #ffffff;
+    width:600px ;
+    padding: 30px;
+ overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(74, 74, 211);
+    font-size: 48px;
+    font-weight: 600;
+}
+.underline{
+    margin-top: 20px;
+   width: 550px;
+   height: 2px;
+   background: #5e5e5e2a;
+   border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #a9a9a932;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+/* .input:hover{
+    border-color: #015583;
+} */
+
+.input:focus-within {
+    border: 2px solid #359ed6;
+    box-shadow: #00466c;
+    
+}
+
+/* .input input::placeholder {
+    color: #492f2f;
+} */
+
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #474545;
+    font-size: 18px;
+}
+
+
+.forgot{
+    padding-left: 62px;
+    margin-top: 10px;
+    color: #474545;
+ 
+}
+.signup span{
+color: blue;
+cursor: pointer;
+}
+
+.signup{
+    padding-left: 62px;
+    margin-top: 10px;
+    color: #474545;
+
+}
+
+.subcontainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+    /* justify-content: center; */
+    /* border: solid red; */
+}
+/* .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px ;
+    height: 50px;
+    color: #ffffff;
+    background: #00466c;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.gray{
+    background: #8a8ba7;
+    color: #ffffff;
+} */
+
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.login button{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    background: #00466c;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3 ease;
+    border: none;
+
+}
+.login button:hover{
+    background: #015583;
+
+}
