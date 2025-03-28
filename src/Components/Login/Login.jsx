@@ -7,7 +7,7 @@ import email from '../Assets/email.png'
 
 const Login = () => {
     const [action, setaction] = useState("Login")
-    const [showPassword, setShowPassword] = useState(false) 
+    const [showPassword, setShowPassword] = useState(true) 
 
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword)
